@@ -1,0 +1,51 @@
+<!--Convert to an external stylesheet-->
+    .main-content {
+        flex: 1;
+    }
+
+    html,
+    body {
+        height: 100%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 2em; /* Adjust as needed */
+        padding-bottom: 2em; /* Adjust as needed */
+    }
+
+    .form-signin {
+        width: 100%;
+        max-width: 20em; /* Adjust as needed */
+        padding: 1.5em;
+        margin: auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adjust as needed */
+    }
+
+    .form-signin img {
+        opacity: 1.0; /* Adjust the value to make it more or less transparent (0 to 1) */
+    }
+
+    .form-signin .checkbox {
+        font-weight: 400;
+    }
+
+    .form-signin .form-floating:focus-within {
+        z-index: 2;
+    }
+
+    .form-signin input[type="email"] {
+        margin-bottom: 0em;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .form-signin input[type="password"] {
+        margin-top: 0;
+        margin-bottom: 0em;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }

@@ -1,0 +1,20 @@
+#entryForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; /* Επιλέξτε έναν αριθμό ζώνης που να είναι 
+                      αρκετά ψηλά για να επικαλύπτει τον πίνακα δεδομένων */
+
+
+                    // Όταν γίνεται toggle το θέμα φωτεινό/σκοτεινό
+                    $('#theme-toggle').change(function() {
+                        if ($(this).is(':checked')) {
+                            // Αν είναι επιλεγμένο το σκοτεινό θέμα
+                            $('#entryForm').removeClass('bg-light').addClass('bg-dark text-light');
+                        } else {
+                            // Αν είναι επιλεγμένο το φωτεινό θέμα
+                            $('#entryForm').removeClass('bg-dark text-light').addClass('bg-light');
+                        }
+                    });
+                    

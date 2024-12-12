@@ -1,0 +1,34 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar {
+    font-size: large;
+    font-weight: 800;
+}
+
+#navbarCollapse a:hover {
+    color: yellowgreen;
+    text-decoration: underline;
+}
+#navbarCollapse a:active {
+    color: rgb(205, 50, 128);
+    text-decoration: underline;
+}
+
+@media (min-width: 1600px) {
+.container-xxl {
+max-width: 1000px; /* Adjust the value to your desired maximum width */
+}}
+
+#entryForm {
+    position: relative; /* Χρησιμοποιήστε σχετική θέση για να διατηρήσετε τη σειρά στοιχείων */
+    z-index: 9990; /* Μεγάλη τιμή z-index για να βεβαιωθείτε ότι είναι πάνω από τα άλλα στοιχεία */
+    width: 60%; margin: 0 auto; top:15%
+  }
+
+#tenderForm {
+    width: 80%; /* Βεβαιωθείτε ότι το tenderForm καταλαμβάνει το 80% του χώρου του entryForm */
+    max-width: 600px; /* ή άλλο πλάτος που θέλετε */
+    margin: 0 auto; /* Κεντράρει το tenderForm εντός του entryForm */
+}
